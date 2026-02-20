@@ -1,0 +1,43 @@
+# --- Python & Environments ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+.venv
+env/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# --- Data & Large Files ---
+# Ignore raw and processed datasets (usually too big for Git)
+data/
+datasets/
+*.csv
+*.json
+*.parquet
+*.h5
+*.zip
+*.tar.gz
+
+# --- Models & Artifacts ---
+# Ignore heavy model weights and logs
+models/
+*.pkl
+*.pth
+*.h5
+*.joblib
+*.pb
+*.onnx
+outputs/
+logs/
+mlruns/  # For MLflow users
+wandb/   # For Weights & Biases users
+
+# --- IDE & OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
