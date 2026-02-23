@@ -4,5 +4,4 @@ venv
 __pycache__
 Artifacts/
 logs/
-final_model
 mlruns/
