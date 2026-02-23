@@ -5,3 +5,4 @@ __pycache__
 Artifacts/
 logs/
 final_model
+mlruns/
